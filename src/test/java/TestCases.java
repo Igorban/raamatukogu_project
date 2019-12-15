@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 
 public class TestCases {
-    final NavigationPage navigation = new NavigationPage();
-    final CreateNewBookPage createBook = new CreateNewBookPage();
-    final ConfirmationPage confirmation = new ConfirmationPage();
-    final AllBooksPage allBooks = new AllBooksPage();
-    TestData data;
+    private final NavigationPage navigation = new NavigationPage();
+    private final CreateNewBookPage createBook = new CreateNewBookPage();
+    private final ConfirmationPage confirmation = new ConfirmationPage();
+    private final AllBooksPage allBooks = new AllBooksPage();
+    private TestData data;
 
     @BeforeEach
     public void beforeScenario() {
